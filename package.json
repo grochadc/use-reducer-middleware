@@ -1,0 +1,29 @@
+{
+  "name": "use-reducer-middleware",
+  "version": "1.0.0",
+  "description": "An enhanced useReducer hook that accepts middleware",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+    "test": "jest --watchAll",
+  },
+  "author": "Gonzalo Rocha",
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "^0.27.1",
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
+    "@testing-library/react-hooks": "^5.0.2",
+    "@types/jest": "^26.0.20",
+    "@types/ramda": "^0.27.35",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "react-hooks-testing-library": "^0.6.0",
+    "react-test-renderer": "^16.9.0"
+  },
+}
