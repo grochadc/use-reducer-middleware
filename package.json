@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
-    "test": "jest --watchAll",
+    "build": "tsc",
+    "test": "jest --watchAll"
   },
   "author": "Gonzalo Rocha",
   "license": "MIT",
@@ -25,5 +25,5 @@
     "jest": "^26.6.3",
     "react-hooks-testing-library": "^0.6.0",
     "react-test-renderer": "^16.9.0"
-  },
+  }
 }
