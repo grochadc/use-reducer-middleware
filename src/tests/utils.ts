@@ -1,6 +1,6 @@
-import { Reducer, StoreAPI, Action } from "./index";
+import { Reducer, StoreAPI, State, Action } from "../index";
 
-export const reducer: Reducer = (state, action) => {
+export const reducer: Reducer = (state: State, action: Action) => {
   switch (action.type) {
     case "INCREMENT":
       return state + 1;
